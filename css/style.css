@@ -1,0 +1,151 @@
+
+/* navbar */
+
+.header {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 1170px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+a:link {
+    color: #303134;
+}
+
+a:visited {
+    color: #303134;
+}
+
+a:hover {
+    color: #47c76e;
+}
+/* navbar end */
+
+/* section-1 */
+
+.s-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    position: relative;
+}
+
+.text {
+    text-align: center;
+    width: 586px;
+    height: 187px;
+    position: absolute;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 78px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+/* section-1 end */
+
+/* section-2 */
+
+.s-1 {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.discover {
+    width: 242px;
+    display: inline-block;
+}
+
+.dscvr {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #8D8D8D;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.OHS {
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #1A1A1B;
+    font-weight: bold;
+}
+
+.lorem {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #8D8D8D;
+    margin-top: 52px;
+    line-height: 1.5;
+}
+
+.card-container {
+    width: 900px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.card {
+    margin-left: 30px;
+    width: 270px;
+}
+
+.card:nth-child(1), .card:nth-child(2), .card:nth-child(3) {
+    margin-bottom: 55px;
+} 
+
+.card-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #1A1A1B;
+    margin-top: 27px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.card-lorem {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8D8D8D;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/* section-2 end*/
