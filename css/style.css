@@ -1,8 +1,10 @@
 
+body {
+    overflow-x: hidden
+}
 
 .container{
     display: flex;
-    width: 1170px;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -12,17 +14,13 @@
 .header {
     width: 1360px;
     height: 80px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
 
 .navbar{
     position: fixed;
-    display: flex;
     width: 1360px;
     height: 80px;
-    margin: 0 auto;
     align-items: center;
     z-index: 5;
     background-color: white;
@@ -34,9 +32,9 @@
 }
 
 .ul {
-    display: inline-flex;
-    width: 620px;
-    justify-content: flex-end;
+   width: auto;
+   float: right;
+
 }
 
 li {
