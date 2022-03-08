@@ -8,6 +8,7 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +18,11 @@
     </head>
     <body>
         <header class="header">
-            <nav class="navbar">
+            <nav class="navbar container">
                 <div class="div-logo">
                     <img src="images/logo.png" alt="" class="logo">
                 </div>
-                <div>
+                <div class="ul">
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT US</a></li>
@@ -29,12 +30,15 @@
                         <li><a href="#">TOUR PACKAGE</a></li>
                     </ul>
                 </div>
+                <div class="burger-bar">
+                    <img src="images/burger.svg" alt="burge-bar" class="burger">
+                </div>
             </nav>
         </header>
 
-        <section class="s-1">
-            <div class="banner">
-                <img src="images/banner.png" alt="Banner">
+        <section class="s-1 container">
+            <div>
+                <img class="banner" src="images/banner.png" alt="Banner">
             </div>
             <div class="text">
                 <h1>Discover Greece</h1>
@@ -43,7 +47,7 @@
         </section>
 
         <section class="s-2">
-            <div class="container">
+            <div class="container s2">
 
                 <div class="discover">
                     <p class="dscvr">DISCOVER</p>

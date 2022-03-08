@@ -1,24 +1,47 @@
 
+
+.container{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
 /* navbar */
 
 .header {
     width: 1360px;
-    margin: 0 auto;
-}
-
-.navbar {
-    width: 1170px;
     height: 80px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     
+    
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 1360px;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    z-index: 5;
+    background-color: white;
+    
+}
+
+.div-logo {
+    width: 133px;
+}
+
+.ul {
+    display: inline-flex;
+    width: 620px;
+    justify-content: flex-end;
 }
 
 li {
     display: inline-block;
-    margin-right: 60px;
+    margin-left: 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
@@ -34,6 +57,14 @@ a:visited {
 a:hover {
     color: #47c76e;
 }
+
+.burger {
+    width: 35px;
+    color: #303134;
+    cursor: pointer;
+    display: none;
+}
+
 /* navbar end */
 
 /* section-1 */
@@ -42,17 +73,19 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    width: 1170px;
 }
 
 .banner {
     position: relative;
+    width: 1360px;
 }
 
 .text {
+    position: absolute;
     text-align: center;
     width: 586px;
-    height: 187px;
-    position: absolute;
 }
 
 h1 {
@@ -73,11 +106,7 @@ h2 {
 
 /* section-2 */
 
-.s-1 {
-    margin: 0 auto;
-}
-
-.container {
+.s2{
     display: flex;
     width: 1170px;
     margin: 0 auto;
@@ -122,6 +151,8 @@ h2 {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     margin-left: 30px;
     width: 270px;
 }
@@ -129,6 +160,10 @@ h2 {
 .card:nth-child(1), .card:nth-child(2), .card:nth-child(3) {
     margin-bottom: 55px;
 } 
+
+.img {
+    width: 269px;
+}
 
 .card-text {
     font-family: 'Raleway', sans-serif;
